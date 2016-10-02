@@ -72,6 +72,7 @@ void Widget::on_sureBtn_slot()
     recursion(filePath);
     //TODO 提示转换成功
 //qDebug() << "转换成功!";
+    QMessageBox::information(this, tr("恭喜"), tr("转码成功!"));
 }
 
 /*
